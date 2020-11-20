@@ -1,0 +1,21 @@
+.service-area{
+    background: url('https://i.postimg.cc/28yy41GM/bannar.png');
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    padding: 25px;
+}
+.card-area{
+    padding: 25px 5px;
+}
+.card-area:hover{
+    background: #ddd;
+    border-radius: 35px 0;
+    box-shadow: 0 0 5px #ddd;
+}
+
+@media(max-width:556px){
+    .card-area{
+        margin-left: 19px;
+    }
+}

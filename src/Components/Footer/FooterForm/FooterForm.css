@@ -1,0 +1,32 @@
+.input-form div {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #eef0ef;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 30px;
+}
+.input-form input[type="text"] {
+    border: none;
+    width: 50%;
+}
+
+.input-form input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    background: linear-gradient(
+        to right,
+        rgba(28, 216, 186, 1),
+        rgba(6, 171, 238, 1)
+    );
+}
+
+@media screen and (max-width: 425px) {
+    .input-form div {
+        width: 100%;
+    }
+}

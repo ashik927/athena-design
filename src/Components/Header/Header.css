@@ -1,0 +1,47 @@
+.row {
+    width: 100%;
+}
+.header{
+    
+}
+.my-navbar {
+    background: url('https://iili.io/Fl59Qj.th.png');
+    background-color: #fff;
+    height:auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px gray;
+}
+
+.navbar-toggler i {
+    color: black;
+    font-size: 29px;
+}
+
+ul li {
+    margin: auto;
+}
+
+ul li a {
+    font-size: 19px;
+    padding: 9px 25px;
+    color: black;
+    display: inline-block;
+}
+
+.contact {
+    border-radius: 30px 0;
+    font-size: 30px;
+    border: none;
+    color: #fff;
+    background: linear-gradient( to right, rgba(28, 216, 186, 1), rgba(6, 171, 238, 1));
+}
+
+ul li a:hover {
+    background: #1abc9c;
+    color: #fff;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;600&display=swap");
+
+.service-card {
+    background-color: #fff;
+    padding: 30px 0;
+    box-shadow: 1px 1px 10px 5px #eef0ef;
+}
+
+.service-card:hover {
+    border: 4px solid #21e3ac;
+}
+
+.service-card h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 68px;
+}
+
+.service-card small {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.service-card p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.line {
+    height: 2px;
+    background-color: #4fd1cb;
+    width: 60%;
+    margin: 20px 20%;
+    opacity: 0;
+}
+
+.order-btn {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 30px 0;
+    font-size: 30px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(
+        to right,
+        rgba(28, 216, 186, 1),
+        rgba(6, 171, 238, 1)
+    );
+    opacity: 0;
+}
+
+.service-card:hover .order-btn,
+.service-card:hover .line {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1440px) {
+    .service-card h2 {
+        font-size: 48px;
+    }
+
+    .service-card small,
+    .service-card p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .line {
+        opacity: 1;
+    }
+}

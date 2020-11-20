@@ -1,0 +1,86 @@
+.banner-area {
+    background-color: #fafffd;
+    padding: 0 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30px;
+    height: auto;
+    /* background: url('https://iili.io/Fl59Qj.th.png');
+    height: auto;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 25px 0; */
+}
+
+.banner-area::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -35%;
+    top: 0;
+    background-image: url("../../images/lightBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(270deg);
+}
+
+.banner-area img {
+    width: 100%;
+}
+
+.left-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: "Yeseva One", cursive;
+    padding: 0 25px;
+}
+
+.left-content h3 {
+    font-size: 49px;
+}
+
+.left-content p {
+    font-size: 21px;
+}
+
+.left-item {
+    padding: 0 25px;
+}
+
+#price {
+    border-radius: 30px 0;
+    font-size: 25px;
+    border: none;
+    color: #fff;
+    background: linear-gradient( to right, rgba(28, 216, 186, 1), rgba(6, 171, 238, 1));
+    padding: 7px 13px;
+}
+
+@media(max-width:576px) {
+    .banner-area {
+        background-color: #fafffd;
+        padding: 0 40px;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 30px;
+        height: auto;
+    }
+    .banner-area::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: -35%;
+        top: 0;
+        background-image: url("../../images/lightBg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: rotate(0deg);
+    }
+}

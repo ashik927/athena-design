@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+
+.social-icon img {
+    margin: 10px;
+}
+
+.main-footer {
+    margin-top: 100px;
+}
+
+footer ul {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    footer ul {
+        text-align: center;
+    }
+}
